@@ -1,0 +1,64 @@
+<!-- 
+Sources: 
+https://www.htmlgoodies.com/css/css-border-padding-margin/
+
+https://dev.to/javascriptacademy/create-a-simple-tic-tac-toe-game-using-html-css-javascript-i4k
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS & JS Functionalities for the 2-player game -->
+  <script type="text/javascript" src="multiples.js"></script>
+  <link rel="stylesheet" href="multiples.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+  <!-- Head content -->
+  <title>tic-tac-toe</title>
+  <link rel="icon" href="../images/favicon1-1.JPG" alt="icon">
+</head>
+
+<body>
+  <main class="background">
+    <section class="title">
+      <h1>Tic Tac Toe for 2!</h1>
+    </section>
+
+    <section class="display">
+      Player <span class="display-player playerX">X</span>'s turn
+    </section>
+
+    <section class="container">
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+    </section>
+
+    <section class="display announcer hide"></section>
+
+    <section class="controls">
+      <button id="reset">Replay</button>
+
+      <a href="../index.html">
+        <button class="home">Home</button>
+      </a>
+    </section>
+
+  </main>
+</body>
+
+</html>

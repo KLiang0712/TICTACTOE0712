@@ -1,0 +1,50 @@
+.title {
+  color: green;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 20%;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10%;
+  background-color: gold;
+  height: 80px;
+  border: 10px solid #79F6FC;
+  width: 600px;
+}
+
+body,
+h2 {
+  font-family: arial;
+  background: green;
+  color: gold;
+}
+
+/* Use the transition-duration property to determine the speed of the "hover" effect: */
+.button {
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1,
+.button2 {
+  color: green;
+  border: 5px solid gold;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.button1:hover,
+.button2:hover {
+  background-color: #79F6FC;
+  color: green;
+}

@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+}
+
+.background {
+  background-color: gold;
+  height: 100%;
+  margin: 0;
+  padding-top: 1px;
+}
+
+.title {
+  background-color: green;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 30%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 40px;
+  margin-top: 10%;
+  color: gold;
+  height: 80px;
+  border: 10px solid #79F6FC;
+  width: 600px;
+}
+
+.display {
+  color: green;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  max-width: 300px;
+  background-color: white;
+}
+
+.tile {
+  border: 5px solid #79F6FC;
+  background-color: green;
+  min-width: 100px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.playerX,
+.playerO {
+  font-weight: bold;
+  color: #79F6FC;
+}
+
+.controls {
+  background-color: green;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.controls button {
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-left: 1em;
+  cursor: pointer;
+  border: 5px solid gold;
+}
+
+.home,
+#reset {
+  background-color: white;
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+  width: 200px;
+  padding: 10px;
+  margin: 30px;
+}
+
+.home:hover,
+#reset:hover {
+  background-color: #79F6FC;
+  color: green;
+}
+
+.restart {
+  background-color: #79F6FC;
+}

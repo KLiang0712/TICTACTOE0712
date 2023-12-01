@@ -1,54 +1,57 @@
-<!-- 
-Sources: 
-https://www.htmlgoodies.com/css/css-border-padding-margin/
-
-https://dev.to/javascriptacademy/create-a-simple-tic-tac-toe-game-using-html-css-javascript-i4k
--->
-
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="tictactoe.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
-    <script src="./tictactoe.js"></script>
-    <title>Tic-Tac-Toe</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <body>
-    <main class="background">
-      
-      <section class="title">
-        <h1>My Games<br>
-        Tic Tac Toe</h1>
-      </section>
-    
-      <section class="display">
-        Player <span class="display-player playerX">X</span>'s turn
-      </section>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
 
-      <section class="container">
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-      </section>
+  <!-- CSS & Head content -->
+  <link rel="stylesheet" href="index.css">
 
-      <section class="display announcer hide"></section>
+  <title>tic-tac-toe</title>
+  <link rel="icon" href="../TicTacToe/images/favicon.png" alt="icon">
+</head>
 
-      <section class="controls"><button id="reset">Reset</button>
-      </section>
-    </main>
-  </body>
+<body>
+  <div class="title">
+    <h1 style="font-size: 40px;">Welcome to Tic Tac Toe!</h1>
+  </div>
+
+  <h2 style="text-align: center; font-size: 30px;">Enjoy our game either with a friend or with the computer!</h2>
+
+  <!-- Buttons to each game version individually -->
+  <!-- Buttons: https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_basic -->
+  <!-- Source: https://stackoverflow.com/questions/3341011/making-a-button-thats-a-link-in-html (2010)-->
+
+  <h2 style="font-size: 30px;">Enjoy our game with the computer:</h2>
+
+  <a href="singles/singles.html">
+    <button class="button button1">1 Player</button>
+  </a>
+
+
+  <h2 style="font-size: 30px;">Enjoy our manual 2-player game:</h2>
+  <a href="multiples/multiples.html">
+    <button class="button button2">2 Players</button>
+  </a>
+
+  <h3 style="font-size: 20px; 
+    text-align: center; 
+    border: 5px solid #79F6FC; 
+    width: 300px; 
+    position: relative;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 30%;">
+    Crafted By Kory Liang on 11/30/2023
+  </h3>
+
+</body>
+
 </html>
-
-<!-- <script type="text/javascript" src="tictactoe.js"></script> --> 
