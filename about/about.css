@@ -1,0 +1,46 @@
+body {
+  background-color: green;
+  font-weight: bold;
+  font-family: arial;
+  color: gold;
+}
+
+h1 {
+  border: 5px solid #79F6FC;
+  text-align: center;
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.title {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+p {
+  background-color: gold;
+  color: green;
+  font-size: 20px;
+}
+
+.home {
+  cursor: pointer;
+  border: 5px solid gold;
+  background-color: white;
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+  width: 200px;
+  padding: 10px;
+  margin: 30px;
+}
+
+.home:hover {
+  background-color: #79F6FC;
+  color: green;
+}

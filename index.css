@@ -14,11 +14,25 @@
   width: 600px;
 }
 
-body,
-h2 {
+body
+{
   font-family: arial;
   background: green;
   color: gold;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.about {
+  position: relative;
+  z-index: 1;
+  top: 0;
+  bottom: 0; 
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Use the transition-duration property to determine the speed of the "hover" effect: */
@@ -41,6 +55,11 @@ h2 {
   font-family: arial;
   font-weight: bold;
   font-size: 30px;
+}
+
+.button2 {
+  justify-content: center;
+  align-items: center;
 }
 
 .button1:hover,
