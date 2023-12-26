@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, green, gold);
+}
+
+h1 {
+  color: #79f6fc;
+  background-color: green;
+  font-weight: bold;
+  border: 5px solid #79f6fc;
+}
+
+.board {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 50px;
+}
+
+.board .dropBox {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  border-right: 5px solid #79f6fc;
+  border-bottom: 5px solid #79f6fc;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.board .dropBox:nth-child(3),
+.board .dropBox:nth-child(6),
+.board .dropBox:nth-child(9) {
+  border-right: none;
+}
+
+.board .dropBox:nth-child(7),
+.board .dropBox:nth-child(8),
+.board .dropBox:nth-child(9) {
+  border-bottom: none;
+}
+
+.board .dropBox div {
+  pointer-events: none;
+  scale: 1.5;
+}
+
+.drag {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 420px;
+  width: 100px;
+  gap: 10px;
+  margin: 0 40px;
+  cursor: grab;
+  background: gold;
+}
+
+.drag .dragBox {
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.cross {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cross::before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  font-weight: bold;
+  background: #79f6fc;
+  transform: rotate(45deg);
+}
+
+.cross::after {
+  content: '';
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background: #79f6fc;
+  transform: rotate(45deg);
+}
+
+.circle {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  font-weight: bold;
+  border: 5px solid #79f6fc;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle::before,
+.circle::after {
+  position: absolute;
+}
+
+.reset {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 25px;
+  border: 5px solid green;
+  outline: none;
+  background-color: gold;
+  color: green;
+  font-weight: bold;
+  font-size: 1.25em;
+  cursor: pointer;
+}
+
+.reset:hover {
+  background-color: #79f6fc;
+  color: green;
+}
+
+.home {
+  position: absolute;
+  bottom: -80px;
+  left: 75%;
+  transform: translateX(-50%);
+  border: 5px solid green;
+  outline: none;
+  background: white;
+  color: green;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  width: 200px;
+  padding: 10px;
+  margin: 30px;
+}
+
+.home:hover {
+  background-color: #79F6FC;
+  color: green;
+}
