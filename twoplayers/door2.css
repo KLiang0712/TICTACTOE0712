@@ -40,22 +40,17 @@ h2 {
     cursor: pointer;
   }
   
-  .button1,
-  .button2 {
+  .button1 {
     color: green;
     border: 5px solid gold;
     font-family: arial;
     font-weight: bold;
     font-size: 30px;
-  }
-  
-  .button2 {
     justify-content: center;
     align-items: center;
   }
   
-  .button1:hover,
-  .button2:hover {
+  .button1:hover {
     background-color: #79F6FC;
     color: green;
   }
