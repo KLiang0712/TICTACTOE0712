@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # TICTACTOE
-My Tic Tac Toe Game [Live Demo](https://tictactoe0712.netlify.app/)
+My Tic Tac Toe Game [Live Demo](https://tictactoe0712.netlify.app)
 =======
 # TICTACTOE Game Package
 My Tic Tac Toe Game Package 
