@@ -87,7 +87,7 @@
   border: 5px solid gold;
 }
 
-.home,
+.exit,
 #reset {
   background-color: white;
   color: green;
@@ -98,7 +98,7 @@
   margin: 30px;
 }
 
-.home:hover,
+.exit:hover,
 #reset:hover {
   background-color: #79F6FC;
   color: green;
