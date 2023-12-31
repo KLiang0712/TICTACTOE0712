@@ -14,16 +14,13 @@
   width: 600px;
 }
 
-body
-{
+body {
   font-family: arial;
   background: green;
   color: gold;
 }
 
-h2 {
-  font-size: 30px;
-}
+h2 { font-size: 30px; }
 
 .about {
   position: relative;
@@ -67,38 +64,4 @@ h2 {
   background-color: #79F6FC;
   color: green;
 }
-
-.dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: gold;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #79F6FC;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+ 

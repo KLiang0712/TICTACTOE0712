@@ -1,64 +1,56 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: arial;
+.welcome {
+  color: green;
+  position: relative;
+  font-size: 40px;
+  text-align: center;
+  background-color: gold;
+  border: 10px solid #79F6FC;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: linear-gradient(45deg, green, gold);
-}
-
-h1 {
-  color: #79f6fc;
-  background-color: green;
-  font-weight: bold;
-  border: 5px solid #79f6fc;
-}
-
-
-h2 {
-  border: 5px solid #79F6FC;
+  font-family: arial;
+  background: green;
   color: gold;
-  background-color: green;
-  text-align: center;
 }
 
+h2 { font-size: 30px; }
+
+/* Use the transition-duration property to determine the speed of the "hover" effect: */
 .button {
-    border: none;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-  }
-  
-  .button1 {
-    color: green;
-    border: 5px solid gold;
-    font-family: arial;
-    font-weight: bold;
-    font-size: 30px;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .button1:hover {
-    background-color: #79F6FC;
-    color: green;
-  }
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  color: green;
+  border: 5px solid gold;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.button1:hover {
+  background-color: #79F6FC;
+  color: green;
+}
 
 .home {
-  background-color: white;
+  position: absolute;
+  left: 10%;
+  transform: translateX(-50%);
+  border: 5px solid #79f6fc;
+  outline: none;
+  background: white;
   color: green;
-  font-size: 20px;
+  cursor: pointer;
+  font-size: 40px;
   font-weight: bold;
   width: 200px;
   padding: 10px;
@@ -66,6 +58,14 @@ h2 {
 }
 
 .home:hover {
-  background-color: #79F6FC;
+  background-color: gold;
   color: green;
+}
+
+#home {
+  font-size: 20px;
+  font-weight: bold;
+  color: gold;
+  border: 5px solid #79f6fc;
+  background-color: green;
 }
