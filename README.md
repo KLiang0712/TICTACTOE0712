@@ -1,4 +1,3 @@
- 
 # Game Package Introduction 
 Listed as Project #1-1 of my web development portfolio for TECH I.S. Bootcamp. 
 It is a sample game package done through research of various projects in CodePen and Online Tutorials YouTube Channel.
